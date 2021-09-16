@@ -42,3 +42,15 @@
     text-align: center;
     
 }
+
+.sostenibilità{
+    position: absolute;
+    display: inline-block;
+    left: 35px;
+    bottom: 10%;
+    background-color: green;
+    height: 15px;
+    width: 60px;
+    color: #fff;
+    font-size:10px ;
+}
