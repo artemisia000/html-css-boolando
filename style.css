@@ -9,20 +9,36 @@
 /*container*/
 .container{
 
-    width: 800px;
+    width: 700px;
+    height: auto;
     background-color: #fff;
     margin: 0 auto;
 }
 
-
+/*colonna*/
 .colonna{
         display: inline-block;
         width: calc(100% /3);
         margin: 0 -2px 30px;
-        padding: 0 2px;
+        padding: 40px 4px;
 }
 
 .dresses img{
     width: 100%;
+}
+.dresses{
+    position: relative;
+}
 
+.discount{
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    width: 30px;
+    height: 15px;
+    background-color: red;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    
 }
