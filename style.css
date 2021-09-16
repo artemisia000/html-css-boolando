@@ -3,19 +3,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000;
+    
     
 }
 /*container*/
 .container{
 
     width: 800px;
-    height: 1200px;
     background-color: #fff;
     margin: 0 auto;
 }
 
-.box{
-    width: 250px;
-    height: 500px;
+
+.colonna{
+        display: inline-block;
+        width: calc(100% /3);
+        margin: 0 -2px 30px;
+        padding: 0 2px;
+}
+
+.dresses img{
+    width: 100%;
+
 }
