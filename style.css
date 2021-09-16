@@ -23,12 +23,15 @@
         padding: 40px 4px;
 }
 
+/*dresses*/
 .dresses img{
     width: 100%;
 }
 .dresses{
     position: relative;
 }
+
+/*bollini*/
 
 .discount{
     position: absolute;
@@ -53,4 +56,11 @@
     width: 60px;
     color: #fff;
     font-size:10px ;
+}
+
+/*descrizione*/
+
+.description{
+    display: inline-block;
+
 }
