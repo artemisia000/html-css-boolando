@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Hind Madurai", serif;
+    font-weight: 300;
+    font-style: normal;
     
     
 }
@@ -17,9 +20,10 @@
 
 /*CARD*/
 .card{
-        width: calc(100% /3);
+        width: calc(90% /3);
         position: relative;
         height: 900px;
+        display: inline-block;
 }
 
 
